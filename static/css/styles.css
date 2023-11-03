@@ -1,39 +1,48 @@
 body{
     min-height: 100vh;
+    color: whitesmoke;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* nav{
+    background-color: gold;
+} */
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url("https://simplemaps.com/static/demos/resources/svg-library/svgs/world.svg");
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url("https://simplemaps.com/static/demos/resources/svg-library/svgs/world.svg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
-/* .hero-text {
-  text-align: center;
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgb(255, 217, 0);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
-} */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 217, 0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
 
-/* .is-invisible{
+.is-invisible{
     display:none;
-} */
+}
 
 .is-visible{
     display:block;
 }
 
-
-.h-300{
-    height: 300px;
+.img-fluid{
+    size: 150px;;
 }

@@ -13,46 +13,39 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Country Info</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active"  name="home">Home</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg bg-body-dark">
+        <div class="container-fluid">
+          <span href="#" class="navbar-brand mb-0 h1">Country Info</span>
+        </div>
+      </nav>
     </header>
 
     <main>
-      <div class="container-flex m-auto">
-        <div class="is-visible" id="home">
-            <div class="hero-image">
-              <div class="hero-text">
-                <h1 class="display-5"><strong>SEARCH COUNTRY INFO</strong></h1>
-              </div>
-              <div class="row">
-                <div class="" id="find-country">
-                  <form id="find-country-form">
-                    <div class="m-4 w-25">
-                      <input class="form-control m-3" name="country" placeholder="Country">
-                      <button id="find-country-input" type="submit" class="form-control btn btn-dark m-3">Find Country</button>
-                    </div>    
-                  </form>
-                  <table class="table" id="country-table">
-                  </table>
+      <div class="is-visible" id="home">
+        <div class="hero-image">
+          <div class="hero-text">
+            <!-- <h1 class="display-5"><strong>SEARCH COUNTRY INFO</strong></h1> -->
+          </div>
+          <div class="row">
+            <div class="is-visble" id="find-country">
+              <form id="find-country-form">
+                <div class="m-4 w-25">
+                  <input class="form-control m-3" name="country" placeholder="Country">
+                  <button id="find-country-input" type="submit" class="form-control btn btn-dark m-3">Find Country</button>
+                </div>    
+              </form>
+              <div class="card text-bg-dark mb-3 ms-5" style="max-width: 1000px;" id="country-card">
+                <div class="card-body">
+                  <h5 class="card-title">Dark card title</h5>
+                  <table class="table" style="color: white; border:2px white," id="country-table"></table>
                 </div>
               </div>
+              <!-- <table class="table" id="country-table"></table> -->
             </div>
-            </div>
+          </div>
         </div>
       </div>
+
     </main>
 
     <footer>
